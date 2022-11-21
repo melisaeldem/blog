@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>DINCER INSTITUTE</title>
+   <!-- BOOTSTRAP START -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <!-- BOOTSTRAP FINISH -->
+   <!-- ICON START -->
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- ICON FINISH -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+   <!-- STYLE START  -->
+   <link rel="stylesheet" href="style.css">
+   <!-- STYLE FINISH  -->
+   <!-- SLIDER -->
+   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <!-- SLIDER -->
+
+</head>
+
+<body>
+
+   <!-- NAVBAR START -->
+   <div class="overlay1 hidden"></div>
+   <header class="header" id="header">
+      <nav class="navbar container">
+         <a href="./index.html" class="brand"><img src="img/DI-logo-new-2.png" alt="" width="150"></a>
+         <div class="burger" id="burger">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+         </div>
+         <span class="overlay"></span>
+         <div class="menu" id="menu">
+            <ul class="menu-inner">
+               <li class="menu-item"><a class="menu-link" href="#">Home</a></li>
+               <li class="menu-item"><a class="menu-link" href="#">About</a></li>
+               <li class="menu-item"><a class="menu-link" href="#">Education</a></li>
+               <li class="menu-item"><a class="menu-link" href="#">Networks</a></li>
+               <li class="menu-item"><a class="menu-link" href="#">Positions</a></li>
+               <li class="menu-item"><a class="menu-link" href="#">Media Gallery</a></li>
+               <li class="menu-item"><a class="menu-link" href="#">Contact</a></li>
+            </ul>
+         </div>
+         <div class="icons d-flex align-items-center">
+            <span><i class="bx bx-search search-toggle hidden"></i></span>
+            <span><i class='bx bx-user-circle'></i><span>
+         </div>
+         <div class="search-block">
+            <form class="search-form">
+               <span><i class="bx bx-arrow-back search-cancel"></i></span>
+               <input type="search" name="search" class="search-input" placeholder="Search here...">
+            </form>
+         </div>
+      </nav>
+   </header>
+   <!-- NAVBAR FINISH -->
+
+   <!-- LOGIN FORM START -->
+   <div class="login__wrapper">
+      <div class="login__form hidden">
+         <div class="login__content">
+            <button class="close-modal">&times;</button>
+            <h1>Login</h1>
+            <form>
+               <div class="group">
+                  <input type="text" required>
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>Username</label>
+               </div>
+
+               <div class="group">
+                  <input type="password" required>
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>Password</label>
+               </div>
+
+               <div class="login__options">
+                  <input id="remember_me" type="checkbox">
+                  <label for="remember_me">
+                     Remember me
+                  </label>
+
+                  <a href="#">
+                     Forgot password?
+                  </a>
+               </div>
+
+               <input type="submit" class="login__button" value="Login" />
+               <p>
+                  Dont got an account yet?
+                  <br />
+                  <a href="#">
+                     Create an account
+                  </a>
+               </p>
+            </form>
+         </div>
+      </div>
+   </div>
+   <!-- LOGIN FORM START -->
+
+
+   <!--SLIDER START-->
+   <!-- slider -->
+
+   <div class="container cursor">
+      <div class="row">
+         <div class="col-12 pb-5">
+            <section class="row">
+               <div class="col-12 col-md-6 pb-0 pb-md-3 pt-2 pr-md-1">
+                  <div id="featured" class="carousel slide carousel" data-ride="carousel">
+                     <ol class="carousel-indicators top-indicator">
+                        <li data-target="#featured" data-slide-to="0" class="active"></li>
+                        <li data-target="#featured" data-slide-to="1"></li>
+                        <li data-target="#featured" data-slide-to="2"></li>
+                        <li data-target="#featured" data-slide-to="3"></li>
+                     </ol>
+
+                     <!--carousel inner-->
+                     <div class="carousel-inner">
+                        <!--Item slider-->
+                        <div class="carousel-item active">
+                           <div class="card border-0 rounded-1 text-light overflow zoom">
+                              <div class="position-relative">
+                                 <!--thumbnail img-->
+                                 <div class="ratio_left-cover-1 image-wrapper">
+                                    <img class="img-fluid w-100" src="img/photo1.jpeg" alt="">
+                                    </a>
+                                 </div>
+                                 <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                    <!--title-->
+                                    <h2 class="h3 post-title text-white my-1">Five trends shaping the renewable energy
+                                       sector.
+                                    </h2>
+                                    </a>
+                                    <!-- meta title -->
+                                    <div class="news-meta">
+                                       <span class="news-author">by <a class="text-white font-weight-bold"
+                                             href="">DINCER ISTITUTE</a>
+                                          <span class="news-date">08.08.2022</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        <!--Item slider-->
+                        <div class="carousel-item">
+                           <div class="card border-0 rounded-1 text-light overflow zoom">
+                              <div class="position-relative">
+                                 <!--thumbnail img-->
+                                 <div class="ratio_left-cover-1 image-wrapper">
+                                    <img class="img-fluid w-100" src="img/photo2.jpg" alt="">
+                                    </a>
+                                 </div>
+                                 <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                    <!--title-->
+                                    <h2 class="h3 post-title text-white my-1">New book on Thermodynamics.
+                                    </h2>
+                                    </a>
+                                    <!-- meta title -->
+                                    <div class="news-meta">
+                                       <span class="news-author">by <a class="text-white font-weight-bold"
+                                             href="">DINCER ISTITUTE</a>
+                                          <span class="news-date">08.08.2022</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        <!--Item slider-->
+                        <div class="carousel-item">
+                           <div class="card border-0 rounded-1 text-light overflow zoom">
+                              <div class="position-relative">
+                                 <!--thumbnail img-->
+                                 <div class="ratio_left-cover-1 image-wrapper">
+                                    <img class="img-fluid w-100" src="img/photo3.jpg" alt="">
+                                    </a>
+                                 </div>
+                                 <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                    <!--title-->
+                                    <h2 class="h3 post-title text-white my-1">Head of Programming
+                                    </h2>
+                                    </a>
+                                    <!-- meta title -->
+                                    <div class="news-meta">
+                                       <span class="news-author">by <a class="text-white font-weight-bold"
+                                             href="">DINCER ISTITUTE</a>
+                                          <span class="news-date">08.08.2022</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        <!--Item slider-->
+                        <div class="carousel-item">
+                           <div class="card border-0 rounded-1 text-light overflow zoom">
+                              <div class="position-relative">
+                                 <!--thumbnail img-->
+                                 <div class="ratio_left-cover-1 image-wrapper">
+                                    <img class="img-fluid w-100" src="img/photo4.jpg" alt="">
+                                    </a>
+                                 </div>
+                                 <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                    <!--title-->
+                                    <h2 class="h3 post-title text-white my-1">How Student Exchange Programs is a Sign of
+                                       a Good University
+                                    </h2>
+                                    </a>
+                                    <!-- meta title -->
+                                    <div class="news-meta">
+                                       <span class="news-author">by <a class="text-white font-weight-bold"
+                                             href="">DINCER ISTITUTE</a>
+                                          <span class="news-date">08.08.2022</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!--end item slider-->
+                     </div>
+                     <!--end carousel inner-->
+                  </div>
+
+                  <!--navigation-->
+                  <a class="carousel-control-prev" href="#featured" role="button" data-slide="prev">
+                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#featured" role="button" data-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Next</span>
+                  </a>
+               </div>
+               <!--End slider news-->
+
+               <!--Start box news-->
+               <div class="col-12 col-md-6 pt-2 pl-md-1 mb-3 mb-lg-4">
+                  <div class="row">
+                     <!--news box-->
+                     <div class="col-6 pb-1 pt-0 pr-1">
+                        <div class="card border-0 rounded-1 text-white overflow zoom">
+                           <div class="position-relative">
+                              <!--thumbnail img-->
+                              <div class="ratio_right-cover-2 image-wrapper">
+                                 <img class="img-fluid" src="img/photo7.jpg" alt="">
+                                 </a>
+                              </div>
+                              <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                 <!-- category -->
+                                 <a class="p-1 badge badge-success rounded-1" href="">ACADEMIC</a>
+
+                                 <!--title-->
+                                 <h2 class="h5 text-white my-1">World Hydrogen Energy Conference.</h2>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--news box-->
+                     <div class="col-6 pb-1 pl-1 pt-0">
+                        <div class="card border-0 rounded-1 text-white overflow zoom">
+                           <div class="position-relative">
+                              <!--thumbnail img-->
+                              <div class="ratio_right-cover-2 image-wrapper">
+                                 <img class="img-fluid" src="img/photo2.jpg " alt="Image description">
+                                 </a>
+                              </div>
+                              <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                 <!-- category -->
+                                 <a class="p-1 badge badge-success rounded-1">SCIENCE</a>
+                                 <!--title-->
+                                 <h2 class="h5 text-white my-1">New book on Thermodynamics.</h2>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <!--news box-->
+                     <div class="col-6 pb-1 pr-1 pt-1">
+                        <div class="card border-0 rounded-1 text-white overflow zoom">
+                           <div class="position-relative">
+                              <!--thumbnail img-->
+                              <div class="ratio_right-cover-2 image-wrapper">
+                                 <img class="img-fluid" src="img/photo6.png" alt="">
+                                 </a>
+                              </div>
+                              <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                 <!-- category -->
+                                 <a class="p-1 badge badge-success rounded-1" href="">ACADEMIC</a>
+                                 <!--title-->
+                                 <h2 class="h5 text-white my-1">Everything You Need to Know About the GRE.</h2>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <!--news box-->
+                     <div class="col-6 pb-1 pl-1 pt-1">
+                        <div class="card border-0 rounded-1 text-white overflow zoom">
+                           <div class="position-relative">
+                              <!--thumbnail img-->
+                              <div class="ratio_right-cover-2 image-wrapper">
+                                 <img class="img-fluid" src="img/photo8.png" alt="Image description">
+                                 </a>
+                              </div>
+                              <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                 <!-- category -->
+                                 <a class="p-1 badge badge-success rounded-1" href="">ACADEMIC</a>
+                                 <!--title-->
+                                 <h2 class="h5 text-white my-1">An Online Support Group and Blog to Reduce Bias and
+                                    Conflict.</h2>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--end news box-->
+                  </div>
+               </div>
+               <!--End box news-->
+            </section>
+            <!--END SECTION-->
+         </div>
+      </div>
+   </div>
+   <!--SLIDER FINISH -->
+
+   <!-- BLOG START -->
+   <section class="blog container py-4 mt-3 blg">
+      <h3 class="mb-3">News <span class=""> fromDincer</span> Institute</h3>
+      <div class="row">
+         <div class="post col-lg-8 col-md-8 col-12">
+            <div class="row">
+               <div class="post1 col-lg-6 col-md-8 col-12 pb-4">
+                  <img class="img-fluid pb-3" src="img/photo9.jpg" alt="">
+                  <h3>The future of African oil and gas: Positioning for the energy transition</h3>
+                  <p>Africa’s oil and gas industry is entering a new era. As the world looks to accelerate its
+                     transition away from fossil fuels, the pressures on the continent’s oil and gas producing nations
+                     are mounting.</p>
+                  <a href="#">Read More</a>
+               </div>
+               <div class="post1 col-lg-6 col-md-8 col-12 pb-4">
+                  <img class="img-fluid pb-3" src="img/photo10.jpg" alt="">
+                  <h3>Teaching Social Change: The Practical Activism Assignment</h3>
+                  <p>“How do we change it?” is a question that I encounter when teaching courses focused on social
+                     justice. When I started teaching at the University of Washington Bothell ten years ago, several
+                     students in my Institutions and Social Change course expressed a desire to move beyond static
+                     research proposals and learn how to effectively apply theory to advance social justice.</p>
+                  <a href="#">Read More</a>
+               </div>
+               <h3 class="mb-3">Academic</h3>
+               <div class="post1 col-lg-6 col-md-8 col-12 pb-4">
+                  <img class="img-fluid pb-3" src="img/photo11.jpg" alt="">
+                  <h3>CAREER ADVICE How to Write a Professional Academic CV</h3>
+                  <p>No matter what stage you are at in your academic career, having a professional academic CV is
+                     essential. Applying for jobs, grants, fellowships and even conferences will all require you to
+                     submit an academic CV. This document is different from a business résumé and has a unique format.
+                  </p>
+                  <a href="#">Read More</a>
+               </div>
+               <div class="post1 col-lg-6 col-md-8 col-12 pb-4">
+                  <img class="img-fluid pb-3" src="img/photo12.webp" alt="">
+                  <h3>Monitoring, Evaluation, Research and Learning Director</h3>
+                  <p>FHI 360 seeks a Monitoring, Evaluation, Research and Learning Director based in Manila,
+                     Philippines, to support an anticipated USAID-funded project aimed to improving the Higher Education
+                     in the Philippines.</p>
+                  <a href="#">Read More</a>
+               </div>
+               <div class="post1 col-lg-6 col-md-8 col-12 pb-4">
+                  <img class="img-fluid pb-3" src="img/photo3.jpg" alt="">
+                  <h3>Head of Programming</h3>
+                  <p>The Head of Programming is responsible for the planning, development, and delivery of Geelong Arts
+                     Centre’s curated programs in response to the Centre’s artistic vision and strategy. </p>
+                  <a href="#">Read More</a>
+               </div>
+               <div class="post1 col-lg-6 col-md-8 col-12 pb-4">
+                  <img class="img-fluid pb-3" src="img/photo5.jpeg" alt="">
+                  <h3>Get smart – Using artificial intelligence and blockchain to decarbonise the energy sector</h3>
+                  <p>There is no doubt that we are currently in the midst of a climate crisis. ‘Once in a hundred-year
+                     events’ are happening every other year; from bushfires to floods, unprecedented weather events are
+                     wreaking havoc across the globe.</p>
+                  <a href="#">Read More</a>
+               </div>
+
+            </div>
+         </div>
+         <div class="sidebar col-lg-4 col-md-4 col-12">
+            <div class="side1 text-center pb-5">
+               <img class="img-fluid mb-3" src="img/photo8.png" alt="">
+               <h6>An Online Support Group and Blog to Reduce Bias and Conflict</h6>
+               <p>At the start of each of my social psychology courses, I “enroll” myself and my students in a
+                  semester-long mock support group to help us become more open to our own biases, less judgmental, less
+                  quick to anger, and more compassionate.</p>
+            </div>
+            <div class="side2 pb-5">
+               <h4>Lorem, ipsum dolor.</h4>
+               <hr class="w-50">
+               <div class="row pb-3">
+                  <div class="sideimg col-lg-4 col-md-4 col-4">
+                     <img class="img-fluid" src="img/photo15.jpg" alt="">
+                  </div>
+                  <div class="sidetext col-lg-8 col-md-8 col-8">
+                     <h4>The future of African oil and gas: Positioning for the energy transition</h4>
+                     <a href="#" class="">Read More</a>
+                  </div>
+               </div>
+               <div class="row pb-3">
+                  <div class="sideimg col-lg-4 col-md-4 col-4">
+                     <img class="img-fluid" src="img/photo13.jpg" alt="">
+                  </div>
+                  <div class="sidetext col-lg-8 col-md-8 col-8">
+                     <h4>New book on Thermodynamics</h4>
+                     <a href="#">Read More</a>
+                  </div>
+               </div>
+               <div class="row pb-3">
+                  <div class="sideimg col-lg-4 col-md-4 col-4">
+                     <img class="img-fluid" src="img/photo14.jpg" alt="">
+                  </div>
+                  <div class="sidetext col-lg-8 col-md-8 col-8">
+                     <h4>Integrated systems in energy</h4>
+                     <a href="#">Read More</a>
+                  </div>
+               </div>
+            </div>
+            <div class="side3">
+               <h4>LOREM</h4>
+               <hr class="w-50">
+               <div class="one">
+                  <img src="img/photo1.jpeg" class="img-fluid" alt="">
+                  <div class="text text-center">
+                     <h4 class="text-light">Lorem ipsum, dolor sit amet consectetur adipisicing.</h4>
+                     <button class="text-uppercase btn-success btn">Read More</button>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- BLOG FINISH -->
+
+   <div class="container mb-5">
+      <div class="content">
+         <div class="wrapper">
+            <div class="box vin">
+               <img src="img/photo16.jpg" alt="">
+               <p>The Unexpected Benefits of Doing a PhD Abroad</p>
+            </div>
+         </div>
+         <div class="wrapper">
+            <div class="box vin">
+               <img src="img/photo7.jpg" alt="">
+               <p>Get smart – Using artificial intelligence and blockchain to decarbonise the energy sector</p>
+            </div>
+         </div>
+         <div class="wrapper">
+            <div class="box vin">
+               <img src="img/photo5.jpeg" alt="">
+               <p>World Hydrogen Energy Conference</p>
+            </div>
+         </div>
+
+      </div>
+   </div>
+
+
+   <!-- FOOTER START -->
+   <div class="footer">
+      <div class="contain">
+         <div class="col">
+            <h1>Company</h1>
+            <ul>
+               <li>About</li>
+               <li>Mission</li>
+               <li>Services</li>
+               <li>Social</li>
+               <li>Get in touch</li>
+            </ul>
+         </div>
+         <div class="col">
+            <h1>Products</h1>
+            <ul>
+               <li>About</li>
+               <li>Mission</li>
+               <li>Services</li>
+               <li>Social</li>
+               <li>Get in touch</li>
+            </ul>
+         </div>
+         <div class="col">
+            <h1>Accounts</h1>
+            <ul>
+               <li>About</li>
+               <li>Mission</li>
+               <li>Services</li>
+               <li>Social</li>
+               <li>Get in touch</li>
+            </ul>
+         </div>
+         <div class="col">
+            <h1>Resources</h1>
+            <ul>
+               <li>Webmail</li>
+               <li>Redeem code</li>
+               <li>WHOIS lookup</li>
+               <li>Site map</li>
+               <li>Web templates</li>
+               <li>Email templates</li>
+            </ul>
+         </div>
+         <div class="col">
+            <h1>Support</h1>
+            <ul>
+               <li>Contact us</li>
+               <li>Web chat</li>
+               <li>Open ticket</li>
+            </ul>
+         </div>
+         <div class="col social">
+            <h1>Social</h1>
+            <ul>
+               <li><img src="" width="32" style="width: 32px;"><i class="fa-brands fa-facebook-f"></i></li>
+               <li><img src="" width="32" style="width: 32px;"><i class="fa-brands fa-instagram"></i></li>
+               <li><img src="" width="32" style="width: 32px;"><i class="fa-brands fa-linkedin-in"></i></li>
+            </ul>
+         </div>
+         <div class="clearfix"></div>
+      </div>
+   </div>
+   <!-- FOOTER FINISH-->
+
+
+
+
+
+
+
+   <!-- BOOTSTRAP SCRIPT START -->
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"></script>
+   <script src="script.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"></script>
+   <!-- BOOTSTRAP SCRIPT FINISH -->
+
+</body>
+
+</html>
